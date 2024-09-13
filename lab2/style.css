@@ -1,0 +1,74 @@
+body {
+    background-color: burlywood;
+    margin: 0;
+    .container{
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+}
+@font-face{
+    font-family: 'text';
+    src: url(Ptz55fW.ttf);
+}
+.text{
+    font-family: 'text';
+}
+
+@font-face{
+    font-family: 'text2';
+    src: url(CourierNewCyr.ttf);
+}
+.text2{
+    font-family: 'text2';
+}
+
+@font-face{
+    font-family: 'text3';
+    src: url(PfvideotextproRegular.ttf);
+}
+.text3{
+    font-family: 'text3';
+}
+
+.film1 {
+    font-family: 'text', sans-serif;
+}
+
+.film2 {
+    font-family: 'text2', sans-serif;
+}
+
+.film3 {
+    font-family: 'text3', sans-serif;
+}
+
+.film-list {
+    list-style-type: none; 
+    padding: 0;
+}
+
+.film-list a {
+    color: black; 
+    text-decoration: none; 
+}
+.film1 p {
+    text-align: center; 
+}
+
+.film2 p {
+    text-align: justify; 
+}
+
+.film3 p {
+    text-align: right; 
+}
+.film img {
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 10px; 
+}
+.bold-text {
+    font-weight: bold;
+}
