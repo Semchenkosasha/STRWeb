@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(249, 192, 201);
+}
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+form {
+    padding: 20px;
+    border-radius: 8px; 
+    width: 500px;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(227, 38, 70);
+}

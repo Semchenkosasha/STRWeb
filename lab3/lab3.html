@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab3.css">
+</head>
+<body>
+
+    <form action="/submit" method="POST">
+        <h1>Анкета сотрудника</h1>
+
+        <fieldset>
+            <legend>Личная информация</legend>
+            <label for="name">Имя:</label>
+            <input id="name" name="name" type="text" required><br><br>
+            <label for="surname">Фамилия:</label>
+            <input id="surname" name="surname" type="text" required><br><br>
+            <label for="email">Email:</label>
+            <input id="email" name="email" type="email" required><br><br>
+            <label for="phone">Телефон:</label>
+            <input id="phone" name="phone" type="tel" required><br><br>
+            <label for="password">Пароль от аккаунта:</label>
+            <input type="password" name="password" id="password" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Другое</legend>
+            <label for="newsletter">
+                <input id="newsletter" name="newsletter" type="checkbox">
+                Замужем/Женат
+            </label><br><br>
+            <label>Пол:</label><br>
+            <label for="male">
+                <input id="male" name="gender" value="male" type="radio" required>
+                Мужчина
+            </label><br>
+            <label for="female">
+                <input id="female" name="gender" value="female" type="radio">
+                Женщина
+            </label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Загрузите фото</legend>
+            <label for="resume">Фото:</label>
+            <input id="resume" name="resume" type="file" accept=".pdf,.docx"><br><br>
+        </fieldset>
+
+        <input type="submit" value="Отправить">
+        <input type="reset" value="Сбросить">
+    </form>
+</body>
+</html>
